@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'cloud-one': "url(./src/assets/img/bg-cloud-one.jpg)",
+      }
+    },
   },
   plugins: [],
 }
