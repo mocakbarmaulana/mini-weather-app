@@ -12,7 +12,8 @@
       "@config/*": ["./src/config/*"],
       "@pages/*": ["./src/pages/*"],
       "@types/*": ["src/types/*"],
-      "@context/*": ["./src/context/*"]
+      "@context/*": ["./src/context/*"],
+      "@components/*": ["./src/components/*"]
     },
 
     /* Bundler mode */
