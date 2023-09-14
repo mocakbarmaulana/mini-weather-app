@@ -55,4 +55,5 @@ export interface IFetching {
 export type WeatherContextType = {
   weather: IWeather | null,
   saveWeather: (location: IWeather) => void
+  getWeather: (city: string) => void
 }
